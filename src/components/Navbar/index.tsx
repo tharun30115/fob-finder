@@ -16,7 +16,7 @@ const Navbar = () => {
 					className="text-indigo-500 font-bold text-[28px] cursor-pointer md:ml-[12px]"
 					onClick={() => navigate("/")}
 				>
-					Job <span className="text-indigo-300">Finder</span>
+					Job-<span className="text-indigo-300">Finder</span>
 				</div>
 				<div className="hidden md:flex items-center gap-6">
 					{navLinks.map((navlink) => {
