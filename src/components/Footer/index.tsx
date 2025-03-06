@@ -13,10 +13,10 @@ const Footer = () => {
 		<div className="w-full md:h-[60px] h-auto py-5 md:py-0 bg-white shadow-sm flex">
 			<div className="flex md:flex-row flex-col md:h-[60px] h-full w-full md:gap-0 gap-5 md:px-[65px] px-[23px] md:items-center justify-between items-start">
 				<div
-					className="text-indigo-500 font-bold text-[28px] cursor-pointer md:ml-[12px]"
+					className="text-indigo-500 f text-[15px] cursor-pointer md:ml-[12px]"
 					onClick={() => navigate("/")}
 				>
-					Job <span className="text-indigo-300">Finder</span>
+					made with ✨ by <a href="https://github.com/tharun30115">tharun</a>
 				</div>
 				<div className="flex md:flex-row flex-col md:items-center items-start md:gap-6 gap-4">
 					{footerLinks.map((link) => {
